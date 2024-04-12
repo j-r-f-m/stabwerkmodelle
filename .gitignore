@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Sphinx documentation
+docs/_build/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# dotenv
+.env
+
+# virtualenv
+venv/
+ENV/

@@ -1,0 +1,2 @@
+# Stabwerkmodell
+Ein Projekt indem die Aufgaben aus "Mit Stabwerkmodellen zur Bewehrungsführung Detailnachweise im Stahlbetonbau" gelöst werden. Dabei werden verschiedene Module erstellt, die die unterschiedliche Berechnungen enthalten, um die Aufgaben läsen zu können. Die Aufgaben aus dem Buch werden dann in Jupyter-Notebooks bearbeitet.
