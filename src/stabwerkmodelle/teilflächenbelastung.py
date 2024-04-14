@@ -19,6 +19,19 @@ def b1_red(b1, e):
     """
     return b1 - 2 * e
 
+def d1_red(d1, e):
+    """
+    Berechnet den reduzierten Wert von d1_red, bei ausmittiger Lasteintragung.
+    Nach EC 2 - 2012, 6.7, S.98
+
+    Parameter:
+    d1 (float): Seitenlänge d1 der Lasteintragsfläche (z. Bsp. Die Seite d eines Elastomerlagers).
+    e (float): Der Wert der Exentrizität.
+
+    Returns:
+    float: Der reduzierte Wert von d1.
+    """
+    return d1 - 2 * e
 
 def b2(b1):
     """

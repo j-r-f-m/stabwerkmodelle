@@ -17,7 +17,16 @@ def test_b1_red():
     assert teilflächenbelastung.b1_red(0.2, 0.05) == 0.1
 
 
-def test_b2_red():
+def test_d1_red():
+    """
+    Testfall für die Funktion d1_red im Modul teilflächenbelastung.
+
+    Dieser Testfall überprüft, ob die Funktion d1_red den erwarteten Wert zurückgibt,
+    wenn die Eingabewerte 0.2 und 0.05 sind. Der erwartete Ausgabewert ist 0.1.
+    """
+    assert teilflächenbelastung.d1_red(0.2, 0.05) == 0.1
+
+def test_b2():
     """
     Testfall für die Funktion b2_red im Modul teilflächenbelastung.
 
@@ -26,6 +35,14 @@ def test_b2_red():
     """
     assert round(teilflächenbelastung.b2(0.1), 2) == 0.3
 
+def test_d2():
+    """
+    Testfall für die Funktion d2_red im Modul teilflächenbelastung.
+
+    Dieser Testfall überprüft, ob die Funktion d2_red den erwarteten Wert zurückgibt,
+    wenn der Eingabewert 0.1 ist. Der erwartete Ausgabewert ist 0.3 und die Funktion soll das Ergebnis auf 2 Dezimalstellen runden.
+    """
+    assert round(teilflächenbelastung.d2(0.1), 2) == 0.3
 
 def test_A_co():
     """
