@@ -1,7 +1,7 @@
 import sys
 
 sys.path.append(
-    "c:\\Users\\donut\\programming\\stabwerkmodelle\\src\\stabwerkmodelle"
+    "c:\\Users\\donut\\programming\\python_projects\\stabwerkmodelle\\src\\stabwerkmodelle"
 )
 
 import mats_beton
